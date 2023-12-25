@@ -1,0 +1,61 @@
+/* Add these CSS styles to improve the appearance of the form */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#registrar-vehicle-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#registrar-vehicle-form h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+#registrar-vehicle-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+#registrar-vehicle-form input[type="text"],
+#registrar-vehicle-form select,
+#registrar-vehicle-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+  margin-bottom: 15px;
+}
+
+#registrar-vehicle-form select {
+  width: 100%;
+}
+
+#registrar-vehicle-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#registrar-vehicle-form button:hover {
+  background-color: #0056b3;
+}

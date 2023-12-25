@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Vehicle</title>
+  <link rel="stylesheet" href="Test.css">
+</head>
+<body>
+  <div id="registrar-vehicle-form">
+    <h1>Register Vehicle</h1>
+    <form id="vehicle-form">
+        <label for="vehicle-type">Vehicle Type</label>
+        <select name="vehicle-type" id="vehicle-type">
+            <option value="car">Car</option>
+            <option value="motorcycle">Motorcycle</option>
+            <option value="truck">Truck</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="photo">Add Photo</label>
+        <input type="file" name="photo" id="photo">
+        <label for="manufacturer">Manufacturer</label>
+        <input type="text" name="manufacturer" id="manufacturer">
+        <label for="model">Model</label>
+        <input type="text" name="model" id="model">
+        <label for="model-year">Model Year</label>
+        <input type="text" name="model-year" id="model-year">
+        <label for="license-plate">License Plate</label>
+        <input type="text" name="license-plate" id="license-plate">
+        <label for="fuel-type">Fuel Type</label>
+        <select name="fuel-type" id="fuel-type">
+            <option value="gasoline">Gasoline</option>
+            <option value="diesel">Diesel</option>
+            <option value="electric">Electric</option>
+            <option value="hybrid">Hybrid</option>
+        </select>
+        <label for="mileage">Mileage</label>
+        <input type="text" name="mileage" id="mileage">
+        <button type="submit" id="save-button">SAVE</button>
+        <button type="button" id="cancel-button">CANCEL</button>
+        <button type="button" id="display-button">DISPLAY DATA</button>
+    </form>
+  </div>
+    <script src="Test2Script.js"></script>
+
+
+</body>
+</html>
